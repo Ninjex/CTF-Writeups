@@ -7,7 +7,9 @@ Viewing the source code and searching for the flag format `easyctf{...}`, we fou
 
 Now, we focus our attention to "team". There's one place where all the teams are listed and that is [Scoreboard](https://www.easyctf.com/scoreboard).
 We first tried viewing the source code to see if we can find the flag. But no luck. Now we turned to Google Chrome's Inspect Element devtool.
-After looking for a bit, we saw a line that was commented out under `<tbody id="scoreboardtable_body">" as:
+After looking for a bit, we saw a line that was commented out under `<tbody id="scoreboardtable_body">` as:
+
 ```<!-- <tr><td>0</td><td><a href='/team?EasyCTF'>EasyCTF</a></td><td>Various Schools</td><td>Infinity</td></tr> -->```
+
 We now jumped over to the team [page](https://www.easyctf.com/team?EasyCTF) for EasyCTF. After looking around for a bit on the Console, we saw "Object" amidst of various warning and errors. Turns out that this was a JSON file which was used to render all the information about the team. We began looking into it and found our flag under the name 'secret' which was:
 `easyctf{h4xxing_th3_c0mpetition_s1t3}`
