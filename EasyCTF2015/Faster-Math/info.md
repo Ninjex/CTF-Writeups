@@ -7,15 +7,19 @@ So, the challenge really says it all. This is a programming challenge where we h
 
 The four math problem types as stated below:
 
-1. Operations -
+* Operations -
   Fill the operations (+, -, or x) in the blanks. Return 3 operations separated by nothing: (((23 _ 221) _ 85) _ 243) = -356
-2. Greater/Lesser Root -
+
+* Greater/Lesser Root -
   Find the value of the greater root: 32x^2 + 4384x - 2625216
-3. Distance -
+
+* Distance -
   A holy grail is projected from the side of a desk at a velocity of 2160 m/s. Given that the desk is 720 m tall, the holy grail is 188 g and the Earth's gravitational constant is 10 m/s^2, calculate the distance from the desk where the holy grail first touches the floor.
-4. Purchase -
+
+* Purchase -
   I was going to the checkout at the pizzeria to pay for my $3.14 purchase, when I discovered that I had left my credit cards at home! Frantically digging through my bag for change, I discovered that I had expendable quantities of nickels, quarters, dollar bills, dimes, and pennies. As I way paying for my purchase, I began to wonder... how many ways could I make $3.14 using just nickels, quarters, dollar bills, dimes, and pennies?
 
 All of these problems will be given in a randomized order, with randomized numerical values. Greater/Lesser Root also varies between well.... Greater and Lesser root as well. Beyond this, another tricky part was that towards the end of the challenges, the purchase problem was giving higher inputs that would in turn be more time consuming to complete (i.e, $90 purchases and lots of coins)
 
 I created a main program to connect to the server with the solutions for operations and distance within the script. Greater/Lesser Root calls an external script called root.py, and Purchase calls an external script called coins.py. The main (math.rb) script returns the values from these programs and sends it to the server like normal. I also the script logging information being received and sent off to the server, and placed that information inside a file named server-log.txt
+The server spits out the flag after completion and is: `easyctf{A+_for_A+_eff0rt!}`
