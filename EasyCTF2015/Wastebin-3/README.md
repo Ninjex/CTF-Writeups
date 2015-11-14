@@ -4,9 +4,9 @@ Hey I just learned this thing called MySQL! My admin account should be safe now!
 
 This challenge is clearly telling us to spew SQLi all up in their db.
 
-Going to the website and viewing the source code, we can see on the final line the following code snippet: `<!-- source code at index.source.php -->`
+Going to the website and viewing the source code, we can see on the final line the following code snippet:
 
-Let's have a look: ``
+`<!-- source code at index.source.php -->`
 
 Sweet, it looks like we have an indexed source code file that has the PHP code visible. The relevant code:
 ```
