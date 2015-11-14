@@ -11,4 +11,4 @@ This problem could be solved in a number of ways. The easiest one of them was to
 composite mystery1.png mystery2.png -compose difference out.png
 ```
 This command generates an image that contains the difference between the pixels in the two given files.
-The flag can be the read from the image: ```easyctf{pretty_pixel_math}```
+The flag can be then read from the image: ```easyctf{pretty_pixel_math}```
