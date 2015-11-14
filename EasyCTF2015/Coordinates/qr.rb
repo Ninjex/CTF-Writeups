@@ -9,8 +9,8 @@ coords.each do |x|
         n = y.to_i if y.to_i > n
     end
 end
-image = ChunkyPNG::Image.new(n+1,n+1,ChunkyPNG::Color::WHITE)
+image = ChunkyPNG::Image.new(n+1,n+1,ChunkyPNG::Color::BLACK)
 coords.each do |x|
-    image[x[0].to_i,x[1].to_i] = ChunkyPNG::Color.rgba(0,0,0,255)
+    image[x[0].to_i,x[1].to_i] = ChunkyPNG::Color::WHITE
 end
 image.save("qr.png") 
