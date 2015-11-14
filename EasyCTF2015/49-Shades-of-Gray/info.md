@@ -6,7 +6,7 @@ We only have 49 shades of gray D:
 `#000000` to `#F5F5F5`... there's one shade missing! Find the hex value of the missing shade. Pound sign optional.
 
 This challenge was actually very simple to solve, and programming knowledge can be minimal if you use the correct tools.
-Running the following command will generate text file `out.txt` which contains all the unique pixel colors in the given image.
+Running the following command will generate a text file called `out.txt` which contains all the unique pixel colors in the given image.
 
 `convert -unique-colors shades.png out.txt`
 
