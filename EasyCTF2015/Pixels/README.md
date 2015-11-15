@@ -1,4 +1,4 @@
-Description:
+Description: Solved by 521 teams.
 ```
 mystery1 - mystery2
 ```
