@@ -10,6 +10,6 @@ secret=_0x6fdc[1]+secret+_0x6fdc[2];
 </script>
 ```
 
-We were sure that `secret` contained our secret. All we had to do was display what `secret` was holding. To do that, we chose Inspect Element of Google Chrome and on Console, we following line:
+We were sure that `secret` contained our secret. All we had to do was display what `secret` was holding. To do that, we chose Inspect Element of Google Chrome and on Console, we submit the following line:
 `alert(secret)`
 which revealed the flag to be: `easyctf{developer_console_is_your_friend}`
