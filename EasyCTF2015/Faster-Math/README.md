@@ -3,7 +3,7 @@ Solved by 65 teams.
 
 I need help on my homework! Connect to programming.easyctf.com:10300 where a series of 100 problems await you.
 
-So, the challenge really says it all. This is a programming challenge where we have a series of math related questions. The questions are split into four categories and have variating numerical values. The easiest way to do this is to parse out the numbers for the specific problem and define function for each of the for math problem types.
+So, the challenge really says it all. This is a programming challenge where we have a series of math related questions. The questions are split into four categories and have variating numerical values. The easiest way to do this is to parse out the numbers for the specific problem and define function for each of the four math problem types.
 
 The four math problem types as stated below:
 
