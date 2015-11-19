@@ -14,6 +14,7 @@ The flag was: `easyctf{never_trust_se1f_signd_certificates}`
 
 ### Tips ###
 To view certificate information of a site on Google Chrome/Chromium, follow these steps:
+
 1. Open a site on Google Chrome/Chromium
 2. In the address bar in the top left, click the lock icon or page icon.
 3. Click **Connection** tab.
