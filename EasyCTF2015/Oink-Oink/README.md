@@ -12,5 +12,5 @@ Output: The translation in English.
 Read the input from a file called `piglatin2.in` that's in the current working directory, and then write your output to a file called `piglatin2.out`
 
 
-Similar to other programming challenges, this had to be solved using programming interface](https://www.easyctf.com/programming). A Python script named [oinkoink.py](../oinkoink.py) was written for the purpose.
+Similar to other programming challenges, this had to be solved using [programming interface](https://www.easyctf.com/programming). A Python script named [oinkoink.py](./oinkoink.py) was written for the purpose.
 Upon successful run, we get our flag which was `easyctf{th0se_pesky_capit4ls_were_a_pa1n,_weren't_they?}`
