@@ -3,7 +3,7 @@ Someone planted a file on our computer (the [shell server](https://www.easyctf.c
 
 This challenge requires us to solve the challenge using [shell server](https://www.easyctf.com/shell). After logging in, we issued following command:
 
-`find / -type f -user l335_haxx0r 2> /dev/null`
+`find / -type f -user l33t_haxx0r 2> /dev/null`
 
 This gave us the location of the file which was `/var/www/html/index.html`. Opening it and looking around, we found the flag in comments of the html file.
 The flag was:

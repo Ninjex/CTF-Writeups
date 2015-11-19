@@ -5,7 +5,7 @@ The input is formatted `[d/e] <string>`. The first character specifies whether t
 
 Although it was a cryptography challenge, this had to be solved using [programming interface](https://www.easyctf.com/programming).
 
-From various failed instances of the program run (later on used as [test cases](./testcases.txt), we were able to find cipher used to encrypt and decrypt the text.
+From various failed instances of the program run (later on used as [test cases](./testcases.txt)), we were able to find cipher used to encrypt and decrypt the text.
 
 For encryption each letter in plaintext was translated using following mechanism:
 ```
