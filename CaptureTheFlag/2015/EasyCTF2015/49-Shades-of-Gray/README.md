@@ -5,7 +5,7 @@ We only have 49 shades of gray D:
 
 `#000000` to `#F5F5F5`... there's one shade missing! Find the hex value of the missing shade. Pound sign optional.
 
-![50 Shades](https://github.com/Ninjex/CTF-Writeups/blob/master/EasyCTF2015/49-Shades-of-Gray/shades.png?raw=true "50 Shades")
+![50 Shades](https://github.com/Ninjex/Wargame-Writeups/blob/master/CaptureTheFlag/2015/EasyCTF2015/49-Shades-of-Gray/shades.png?raw=true "50 Shades")
 
 This challenge was actually very simple to solve, and programming knowledge can be minimal if you use the correct tools.
 Running the following command will generate a text file called `out.txt` which contains all the unique pixel colors in the given image.
