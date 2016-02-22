@@ -22,12 +22,15 @@ dba52097aba3af2b30ccbc589912ae67dcf5d77b 26858023dc18a164af9b9f847cbfb23919489ab
 ```
 
 Next, I used a tool called `gitdumper` from `GitTools`
+
 `https://github.com/internetwache/GitTools`
+
 Description: `A repository with 3 tools for pwn'ing websites with .git repositories available`
 
 `./gitdumper.sh https://0ldsk00lblog.ctf.internetwache.org/.git /tmp/git-dump`
 
 Running `git-status` inside the cloned git project shows the output of a single file: `index.html`
+
 Next up, I ran `git checkout .` providing me with the `index.html` file.
 
 Finally, I ran `git show` and was able to see the diff and pick up the flag: `IW{G1T_1S_4W3SOME}`
