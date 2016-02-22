@@ -60,6 +60,6 @@ sub testPrime
   return 1;
 }
 ```
-The flag was not written down sorry.
-
+The flag is:
+IW{Pr1m3s_4r3_!mp0rt4nt}
 
