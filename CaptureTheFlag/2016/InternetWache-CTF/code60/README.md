@@ -60,10 +60,6 @@ sub testPrime
   return 1;
 }
 ```
-<<<<<<< HEAD
-The flag is:
-IW{Pr1m3s_4r3_!mp0rt4nt}
-=======
+
 Flag: `IW{Pr1m3s_4r3_!mp0rt4nt}`
->>>>>>> upstream/master
 
