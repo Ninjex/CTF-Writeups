@@ -36,7 +36,7 @@ Hrmmmm...
 
 Instead of every other character, now it's every third character...
 
-After some vigorous attempts at figuring out how the filter was working, it was found that the if the input exceeds 50 characters, it will take every 6th character. This means that as long as our input is greater than or equal to 9 bytes in length, we can just reverse our input and repeat each character 6 times. If the input is less than 9 characters, we could simply add a comment section to fulfill those bytes.
+After some vigorous attempts at figuring out how the filter was working, it was found that if the input exceeds 50 characters, it will take every 6th character. This means that as long as our input is greater than or equal to 9 bytes in length, we can just reverse our input and repeat each character 6 times. If the input is less than 9 characters, we could simply add a comment section to fulfill those bytes.
 
 Okay, so now that we have figured out the filter, let's throw some JavaScript related queries at it (Some code pastes will be shortened for the sake of this writeup's length)
 
