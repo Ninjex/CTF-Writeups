@@ -1,8 +1,50 @@
-Description: I stumbled across this kinda oldskool blog. I bet it is unhackable, I mean, there's only static HTML.
+#0ldsk00lBlog
+###(web80, solved by 264)
 
-Service: https://0ldsk00lblog.ctf.internetwache.org/
 
-The first thing to check was to see if the website contained a git repo.
+>Description: I stumbled across this kinda oldskool blog. I bet it is unhackable, I mean, there's only static HTML.
+
+>Service: https://0ldsk00lblog.ctf.internetwache.org/
+
+First things first, go to the service and then browse the page and source code:
+
+<html>
+<head>
+	<title>0ldsk00l</title>
+</head>
+<body>
+
+	<h1>Welcome to my 0ldsk00l blog.</h1>
+	<p>
+		Now this is some oldskool classic shit. Writing your blog manually without all this crappy bling-bling CSS / JS stuff.
+	</p>
+
+	<h2>2016</h2>
+	<p>
+		It's 2016 now and I need to somehow keep track of my changes to this document as it grows and grows. All people are talking about a tool called 'Git'. I think I might give this a try.
+	</p>
+
+	<h2>1990-2015</h2>
+	<p>
+		Hmm, looks like totally forgot about this page. I should start blogging more often.
+	</p>
+
+	<h2>1990</h2>
+	<p>
+		I proudly present to you the very first browser for the World Wide Web. Feel free to use it to view my awesome blog.
+	</p>
+
+	<h2>1989</h2>
+	<p>
+		So, yeah, I decided to invent the World Wide Web and now I'm sitting here and writing this.
+	</p>
+</body>
+</html>
+
+Looking at the second paragraph:
+`All people are talking about a tool called 'Git'. I think I might give this a try.`
+
+the first thing I wanted to do was check if the website contained a git repo.
 `https://0ldsk00lblog.ctf.internetwache.org/.git`
 
 ## Forbidden
@@ -35,4 +77,4 @@ Next up, I ran `git checkout .` providing me with the `index.html` file.
 
 Finally, I ran `git show` and was able to see the diff and pick up the flag: `IW{G1T_1S_4W3SOME}`
 
-![Flag](https://github.com/Ninjex/CTF-Writeups/blob/master/InternetWache-CTF/web80/web80.png?raw=true "Flag")
+![Flag](https://github.com/Ninjex/Wargame-Writeups/tree/master/CaptureTheFlag/2016/InternetWache-CTF/web80/web80.png?raw=true "Flag")
