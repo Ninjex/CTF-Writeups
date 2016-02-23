@@ -77,4 +77,4 @@ Next up, I ran `git checkout .` providing me with the `index.html` file.
 
 Finally, I ran `git show` and was able to see the diff and pick up the flag: `IW{G1T_1S_4W3SOME}`
 
-![Flag](https://github.com/Ninjex/Wargame-Writeups/tree/master/CaptureTheFlag/2016/InternetWache-CTF/web80/web80.png?raw=true "Flag")
+![Flag](https://raw.githubusercontent.com/Ninjex/Wargame-Writeups/master/CaptureTheFlag/2016/InternetWache-CTF/web80/web80.png "Flag")
