@@ -28,7 +28,7 @@ bandit1@melinda:~$ cat < -
 CV1DtqXWVFXTvM2F0k09SHz0YwRINYA9
 ```
 
-We could also explicitly call cat on the file name as `./-``
+We could also explicitly call cat on the file name as `./-`
 
 and if you aren't sure what the explicite file name should be, you can always run a find command on the directory:
 
