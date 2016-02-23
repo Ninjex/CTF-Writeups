@@ -32,19 +32,3 @@ ECDSA key fingerprint is 05:3a:1c:25:35:0a:ed:2f:cd:87:1c:f6:fe:69:e4:f6.
 Are you sure you want to continue connecting (yes/no)? yes
 Warning: Permanently added 'bandit.labs.overthewire.org,178.79.134.250' (ECDSA) to the list of known hosts.
 ```
-
-Upon tunneling into the server, the first and obvious thing to do is list the contents of the directory:
-
-`bandit0@melinda:~$ ls -al`
-
-It appears to have a readme file in the directory, let's dump the contents to STDOUT using the `cat` command:
-
-```
-bandit0@melinda:~$ cat readme
-boJ9jbbUNNfktd78OOpsqOltutMc3MY1
-bandit0@melinda:~$
-```
-
-This is our password for the `bandit1` account!
-
-![bandit0](https://github.com/Ninjex/Wargame-Writeups/blob/master/OverTheWire/bandit/level0/bandit0.png?raw=true "bandit0")
