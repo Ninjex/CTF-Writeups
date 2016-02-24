@@ -31,7 +31,7 @@ def custom_input(input)
 end
 
 loop do
-  @data = @sock.recv(5000)
+  @data = @sock.recv(1024)
   puts @data unless @data.empty?
   if @initial_payloads.size >= 1
     generate_payload(@initial_payloads[0])
